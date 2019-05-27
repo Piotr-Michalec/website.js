@@ -1,5 +1,6 @@
 var someText = "imie i nazwiskło";
-
+var index = 0;
+var imageList = ["moose.jpg", "bocian.jpg"];
 
 function dodajText(){
 //place someText variable on website
@@ -7,9 +8,31 @@ document.getElementById("myText").innerHTML = someText;
 console.log("Działa");
 }
 function addImg(){
-    var img1 =document.createElement("img");
-img1.src = "C:\Users\pmich\OneDrive\Documents\website.js\moose.jpg";
-   document.getElementById("moo").appendChild(img1);
-  console.log("moose");
+  
+  var x = document.createElement("IMG");
+  x.setAttribute("src", "moose.jpg");
+  x.setAttribute("width", "304");
+  x.setAttribute("height", "228");
+  x.setAttribute("alt", "The Pulpit Rock");
+  document.getElementById.appendChild("moo");
+
+}
+
+function addImg(){
+
+  
+
+
+
+
+ 
+
+
+  index = index + 1;
+  if (index == imageList.length) {
+     index = 0;
+  }
+  var image1 = document.getElementById("animal");
+  image1.src = imageList[index];
 
 }
