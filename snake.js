@@ -215,6 +215,6 @@ if (foodEaten==false&&bodyElements.length>15){
 function updateSpeed()
 {
     if (score%5==0){
-        intervalRatio-25;
+        intervalRatio-50;
     }
 }
