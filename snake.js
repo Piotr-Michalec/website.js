@@ -73,7 +73,7 @@ function draw(a, b) {
     context.clearRect(0, 0, canvas.width, canvas.height)
     
     context.fillRect(x, y, 10, 10);
-    context.fillStyle = "#0095DD";
+    context.fillStyle = "#8cf442";
     context.fill();
     
    
@@ -83,7 +83,7 @@ function draw(a, b) {
     y = y + b;
     //draw the food
     context.fillRect(foodX, foodY, 10, 10);
-    context.fillStyle = "#0095DD";
+    context.fillStyle = "#f44277";
     context.fill();
 
    }
@@ -215,6 +215,6 @@ if (foodEaten==false&&bodyElements.length>15){
 function updateSpeed()
 {
     if (score%5==0){
-        intervalRatio-20;
+        intervalRatio-25;
     }
 }
