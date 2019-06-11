@@ -1,5 +1,5 @@
 var someText = "imie i nazwiskło";
-var index = 0;
+var index = 1;
 var imageList = ["moose.jpg", "bocian.jpg"];
 
 function dodajText(){
