@@ -2,3 +2,10 @@
 
 #bigcontainer {background-color: burlywood}
 .page-footer {background-color: #343a40}
+
+div.gameWindow {
+
+max-width: 500px;
+margin: auto;
+  border: 3px solid #73AD21;
+}
