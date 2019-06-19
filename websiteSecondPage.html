@@ -86,76 +86,82 @@
 
   </div>
   <!--tu sie skończy slider-->
-  <div class="jumbotron" style="margin-bottom:0">
-
-
-      <div class="row">
-          <div class="col">
-            1 of 3
-            <h1>1:Start</h1>
-            <h1>2:Dowolny kursor</h1>
-            <h1 id="displayScore">Score</h1>
-            <h1 id="gameplayInfo"></h1>
-            <p id="lives"></p>
-          </div>
-          <div class="col-8">
-            2 of 3
-                    <!--snake game starts here-->
-                    <div id="gameWindow">
-                        <canvas id="myCanvas" width="310" height="410" style="border:1px solid #188b1e;"></canvas>
-
-                  </div>
-                    <div id="buttons">
-
-                        
-                            <div class="row">
-                              <div class="col">
-                                1 of 2
-                              </div>
-                              
-                            </div>
-                            <div class="row">
-                              <div class="col">
-                                1 of 3
-                              </div>
-                              <div class="col">
-                                2 of 3
-                              </div>
-                              <div class="col">
-                                3 of 3
-                              </div>
-                            </div>
-                            <div class="row">
-                                <div class="col">
-                                  1 of 2
-                                </div>
-                                
-                              </div>
-                          </div>
+  <div id = "snakeGame">
+<div class="jumbotron">
 
 
 
-
-
-
-                        <button onclick="moveUp()" class="btn btn-success">Up</button>
-                        <button onclick="moveDown()" class="btn btn-success">Down</button>
-                        <button onclick="moveLeft()" class="btn btn-success">Left</button>
-                        <button onclick="moveRight()" class="btn btn-success">Right</button>
-                        <button onclick="start()" class="btn btn-success">start</button>
-                    </div>
-                   
-                </div>
-      
-              <!--snake game ends here-->
-          </div>
-          <div class="col">
-            3 of 3
-    
-          </div>
+<!--snake game starts here-->
+<div id="gameWindow">
+  <canvas id="myCanvas" width="310" height="410" style="border:1px solid #188b1e;"></canvas>
+  <div id="buttons">
+    <button  id="upButton"  onclick="moveUp()" class="snake-button" >Up</button>
+    <button onclick="moveDown()" id="downButton" class="snake-button">Down</button>
+    <button onclick="moveLeft()" id="leftButton" class="snake-button">Left</button>
+    <button onclick="moveRight()" id="rightButton" class="snake-button">Right</button>
+    <button id ="startButton" onclick="start()" class="btn btn-success">start</button>
+  </div>
+  <h1 id="displayScore">Score</h1>
+        <h1 id="gameplayInfo"></h1>
+        <p id="lives"></p>
 </div>
 
 
+</div>
+
+<!--snake game ends here-->
+
+
+</div>
+
+
+
+  </div>
+  
+
+
+      
+
+  <div class="container-fluid">
+    
+    <div class="row">
+      <div class="col-3">
+        1 of 3
+      </div>
+      <div class="col-6">
+          
+
+
+
+          <!--snake game starts here-->
+         
+            <canvas id="myCanvas" width="310" height="410" style="border:1px solid #188b1e;"></canvas>
+            <div id="buttons">
+              <button onclick="moveUp()" class="btn btn-success">Up</button>
+              <button onclick="moveDown()" class="btn btn-success">Down</button>
+              <button onclick="moveLeft()" class="btn btn-success">Left</button>
+              <button onclick="moveRight()" class="btn btn-success">Right</button>
+              <button onclick="start()" class="btn btn-success">start</button>
+            </div>
+            <h1 id="displayScore">Score</h1>
+                  <h1 id="gameplayInfo"></h1>
+                  <p id="lives"></p>
+         
+          
+          
+          </div>
+          
+          <!--snake game ends here-->
+          
+          
+          </div>
+        2 of 3
+      </div>
+      <div class="col-3">
+        3 of 3
+      </div>
+    </div>
+  </div>
 
 
     

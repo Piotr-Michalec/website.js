@@ -1,11 +1,87 @@
-.jumbotron {background-color: rgb(197, 197, 236) }
+.jumbotron {background-color: rgba(249, 249, 250, 0.925) }
 
 #bigcontainer {background-color: burlywood}
 .page-footer {background-color: #343a40}
 
-div.gameWindow {
+#gameWindow {
 
-max-width: 500px;
+max-width: 315px;
 margin: auto;
   border: 3px solid #73AD21;
+}
+p{
+  color:green;
+}
+
+#moose{
+
+  color:red;
+  
+}
+
+div{
+  
+  color:blue;
+}
+p:hover{
+  color:lime;
+  text-decoration: darkcyan;
+  letter-spacing: 3px;
+}
+.row{
+margin: 60px;
+padding: 60px;
+border : 5px solid #343a40;
+
+}
+#buttons{
+  color: blue;
+  display: grid;
+  grid-row-gap: 20px;
+  grid-column-gap: 20px
+  
+
+}
+#upButton{
+grid-row-start: 1;
+grid-column-start: 2;
+color: rgb(54, 33, 173);
+
+
+}
+#downButton{
+
+  grid-row-start: 3;
+  grid-column-start: 2;
+
+}
+
+#leftButton{
+
+  grid-row-start: 2;
+  grid-column-start: 1;
+
+}
+#rightButton{
+grid-row-start: 2;
+grid-column-start: 3;
+}
+
+#startButton{
+
+
+  grid-row-start: 4;
+grid-column-start: 2;
+}
+
+.snake-button{
+
+color: blue;
+background-color: coral;
+
+}
+
+#myCanvas{
+
+  background-color:lavender;
 }
