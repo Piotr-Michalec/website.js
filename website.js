@@ -36,3 +36,8 @@ function addImg(){
   image1.src = imageList[index];
 
 }
+$(document).ready(function(){
+  $(jqueryTest).click(function(){
+    $(".znikaj").hide();
+  });
+});

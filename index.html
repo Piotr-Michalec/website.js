@@ -15,6 +15,8 @@
 
   <title>Strona moja!</title>
   <link href="stylesheet.css" rel="stylesheet" type="text/css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 </head>
 
 
@@ -103,19 +105,20 @@
             their former habitats. .</p>
         </div>
         <div class="col">
-          <h1>Mała kolumna</h1>
+          <h1 class="znikaj">Mała kolumna</h1>
           <p>Tu sie wstawi jakieś przyciski</p>
           <div class="buttoncontainer">
 
             <button onclick="dodajText()" class="btn btn-success">Text</button>
             <button onclick="addImg()" class="btn btn-success">Moose/stork</button>
+            <button id="jqueryTest">Klik jquery test</button>
 
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col">
-          <p>Auto-layout for flexbox grid columns also means you can set the width of one column and have the sibling
+          <p class="znikaj">Auto-layout for flexbox grid columns also means you can set the width of one column and have the sibling
           </p>
         </div>
         <div class="col">
